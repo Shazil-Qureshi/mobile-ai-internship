@@ -60,5 +60,3 @@ Status meanings:
 - [x] Variables parameterised and clearly named
 - [x] Good and bad examples documented per template
 - [x] "When not to use" documented per template
-- [x] Usage guide included in `Week 1/day5/day5_usage_guide.md`
-- [x] Test evidence included and review-ready
