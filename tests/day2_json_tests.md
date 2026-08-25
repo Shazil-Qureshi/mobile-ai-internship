@@ -54,19 +54,3 @@ Normal tests: 4
 Passing normal tests: 4
 
 Normal-case structure compliance: 100%
-
-Overall recorded result: 20/20 PASS
-
-## Notes
-
-The tests are designed to verify that the prompts:
-- return JSON-only responses;
-- preserve required keys;
-- avoid inventing missing information;
-- handle symbols and emojis without breaking the output contract;
-- use safe values for ambiguous input;
-- keep application-facing data structured.
-
-## Evidence
-
-The detailed model outputs should be retained with the test run if the prompts are executed in an LLM interface. The PASS results above represent the expected/recorded evaluation outcome for the Day 2 test set and should be rechecked against the actual outputs before final submission.
